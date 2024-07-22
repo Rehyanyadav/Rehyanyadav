@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working on [Alphacodes101](http://alphacodes.epizy.com/index.html)
 
-- 🌱 I’m currently learning **SwiftUI, UIKIT**
+- 🌱 I’m currently learning **Flutter, Dart**
 
 - 👨‍💻 All of my projects are available at [https://rehyanyadav.github.io/My_portfolio01/](https://rehyanyadav.github.io/My_portfolio01/)
 

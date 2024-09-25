@@ -13,7 +13,7 @@
 
 - 📝 I regularly write articles on [https://codewithrehyan.blogspot.com](https://codewithrehyan.blogspot.com)
 
-- 💬 Ask me about **React,Swift,C++,C,Javascript,Mongodb ,css,DSA**
+- 💬 Ask me about **Swift,C++,C,Dart,Mongodb,DSA**
 
 - 📫 How to reach me **ritulyadav1984@gmail.com**
 

@@ -1,0 +1,51 @@
+name: Generate GitHub Stats Cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # once a day
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/generate-stats.mjs"
+      - "scripts/render-svg.mjs"
+      - ".github/workflows/stats.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Pulls real numbers straight from the GitHub REST + GraphQL API —
+      # no third-party service, so nothing to rate-limit or go down.
+      - name: Fetch live GitHub data
+        run: node scripts/generate-stats.mjs
+        env:
+          GH_USERNAME: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Render stat cards
+        run: node scripts/render-svg.mjs
+
+      - name: Publish to "output" branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          # keep_files is essential here — the snake workflow publishes to
+          # this same branch, and without this each deploy would wipe out
+          # whatever the other one just wrote.
+          keep_files: true
+          commit_message: "chore: update stats cards [skip ci]"

@@ -73,10 +73,9 @@
 <br>
 
 <!-- ===== CONTRIBUTION SNAKE =====
-     Rendered by .github/workflows/snake.yml (Platane/snk), on a brand-matched
-     teal → cyan gradient. Only shows up after that workflow has run at least
-     once and created the "output" branch — trigger it manually from the
-     Actions tab the first time. -->
+     Rendered by .github/workflows/snake.yml as a fully filled green contribution
+     grid. It appears after the workflow has run once and published the output
+     branch. -->
 <div align="center">
 
 <picture>

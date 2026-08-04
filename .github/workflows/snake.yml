@@ -2,8 +2,8 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # every 12 hours
-  workflow_dispatch: {}       # manual trigger from the Actions tab
+    - cron: "0 */12 * * *"
+  workflow_dispatch: {}
   push:
     branches:
       - main
@@ -18,19 +18,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate snake SVGs
-        uses: Platane/snk/svg-only@v3
-        id: snake-gif
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#24292F,#57606A,#8C959F&color_dots=#EBEDF0,#9BE9A8,#40C463,#30A14E,#216E39
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#F0F6FC,#C9D1D9,#8B949E&color_dots=#161B22,#0E4429,#006D32,#26A641,#39D353
-        # The svg-only action needs a token to read your contribution graph
-        # via the GitHub GraphQL API — without this it silently fails to
-        # generate anything, which is why the snake wasn't rendering before.
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          node-version: 20
+
+      - name: Generate full-green contribution SVGs
+        run: |
+          node scripts/render-snake.mjs
 
       - name: Push output to the "output" branch
         uses: peaceiris/actions-gh-pages@v4
@@ -38,8 +33,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
-          # keep_files is essential here — the stats workflow publishes to
-          # this same branch, and without this each deploy would wipe out
-          # whatever the other one just wrote.
           keep_files: true
           commit_message: "chore: update contribution snake [skip ci]"

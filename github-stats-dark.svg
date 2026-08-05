@@ -1,0 +1,28 @@
+<svg width="560" height="200" viewBox="0 0 560 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A101F"/><stop offset="100%" stop-color="#0D1526"/>
+    </linearGradient>
+    <linearGradient id="accent-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="200" rx="12" fill="url(#bg-dark)"/>
+  <rect x="0.5" y="0.5" width="559" height="199" rx="12" fill="none" stroke="#1B2434" stroke-width="1"/>
+  <rect x="10" y="0" width="540" height="3" rx="1.5" fill="url(#accent-dark)"/>
+  <text x="28" y="40" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#22D3EE">GITHUB STATS</text>
+  <text x="28" y="58" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#94A3B8">@rehyanyadav</text>
+  <line x1="0" y1="82" x2="560" y2="82" stroke="#1B2434" stroke-width="1"/>
+  <line x1="140" y1="82" x2="140" y2="150" stroke="#1B2434" stroke-width="1"/><line x1="280" y1="82" x2="280" y2="150" stroke="#1B2434" stroke-width="1"/><line x1="420" y1="82" x2="420" y2="150" stroke="#1B2434" stroke-width="1"/>
+  
+    <text x="70" y="118" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#F8FAFC">3</text>
+    <text x="70" y="142" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#94A3B8">Total Stars</text>
+    <text x="210" y="118" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#F8FAFC">127</text>
+    <text x="210" y="142" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#94A3B8">Contributions</text>
+    <text x="350" y="118" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#F8FAFC">74</text>
+    <text x="350" y="142" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#94A3B8">Public Repos</text>
+    <text x="490" y="118" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#F8FAFC">10</text>
+    <text x="490" y="142" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#94A3B8">Followers</text>
+  <line x1="0" y1="150" x2="560" y2="150" stroke="#1B2434" stroke-width="1"/>
+  <text x="280" y="176" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#94A3B8">108 commits · 1 PRs · 0 issues · 2 forks</text>
+</svg>

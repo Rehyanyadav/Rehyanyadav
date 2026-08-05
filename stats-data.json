@@ -1,0 +1,36 @@
+{
+  "followers": 10,
+  "totalContributions": 127,
+  "totalCommits": 108,
+  "totalPRs": 1,
+  "totalIssues": 0,
+  "totalStars": 3,
+  "totalForks": 2,
+  "totalRepos": 74,
+  "languages": [
+    {
+      "name": "C",
+      "pct": 30.4
+    },
+    {
+      "name": "JavaScript",
+      "pct": 21.4
+    },
+    {
+      "name": "HTML",
+      "pct": 19.6
+    },
+    {
+      "name": "C++",
+      "pct": 17.9
+    },
+    {
+      "name": "Python",
+      "pct": 5.4
+    },
+    {
+      "name": "Go",
+      "pct": 5.4
+    }
+  ]
+}

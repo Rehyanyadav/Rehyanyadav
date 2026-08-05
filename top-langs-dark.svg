@@ -1,0 +1,47 @@
+<svg width="560" height="270" viewBox="0 0 560 270" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgl-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A101F"/><stop offset="100%" stop-color="#0D1526"/>
+    </linearGradient>
+    <linearGradient id="accentl-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="270" rx="12" fill="url(#bgl-dark)"/>
+  <rect x="0.5" y="0.5" width="559" height="269" rx="12" fill="none" stroke="#1B2434" stroke-width="1"/>
+  <rect x="10" y="0" width="540" height="3" rx="1.5" fill="url(#accentl-dark)"/>
+  <text x="28" y="40" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#22D3EE">TOP LANGUAGES</text>
+  <text x="28" y="58" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#94A3B8">by repository</text>
+  <line x1="0" y1="76" x2="560" y2="76" stroke="#1B2434" stroke-width="1"/>
+  
+    <circle cx="30" cy="90" r="4.5" fill="#555555"/>
+    <text x="42" y="94" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#E2E8F0">C</text>
+    <rect x="130" y="84" width="300" height="8" rx="4" fill="#131C2E"/>
+    <rect x="130" y="84" width="91.2" height="8" rx="4" fill="#555555"/>
+    <text x="444" y="94" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#94A3B8">30.4%</text>
+    <circle cx="30" cy="116" r="4.5" fill="#F1E05A"/>
+    <text x="42" y="120" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#E2E8F0">JavaScript</text>
+    <rect x="130" y="110" width="300" height="8" rx="4" fill="#131C2E"/>
+    <rect x="130" y="110" width="64.2" height="8" rx="4" fill="#F1E05A"/>
+    <text x="444" y="120" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#94A3B8">21.4%</text>
+    <circle cx="30" cy="142" r="4.5" fill="#E34C26"/>
+    <text x="42" y="146" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#E2E8F0">HTML</text>
+    <rect x="130" y="136" width="300" height="8" rx="4" fill="#131C2E"/>
+    <rect x="130" y="136" width="58.8" height="8" rx="4" fill="#E34C26"/>
+    <text x="444" y="146" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#94A3B8">19.6%</text>
+    <circle cx="30" cy="168" r="4.5" fill="#F34B7D"/>
+    <text x="42" y="172" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#E2E8F0">C++</text>
+    <rect x="130" y="162" width="300" height="8" rx="4" fill="#131C2E"/>
+    <rect x="130" y="162" width="53.7" height="8" rx="4" fill="#F34B7D"/>
+    <text x="444" y="172" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#94A3B8">17.9%</text>
+    <circle cx="30" cy="194" r="4.5" fill="#3572A5"/>
+    <text x="42" y="198" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#E2E8F0">Python</text>
+    <rect x="130" y="188" width="300" height="8" rx="4" fill="#131C2E"/>
+    <rect x="130" y="188" width="16.2" height="8" rx="4" fill="#3572A5"/>
+    <text x="444" y="198" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#94A3B8">5.4%</text>
+    <circle cx="30" cy="220" r="4.5" fill="#00ADD8"/>
+    <text x="42" y="224" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#E2E8F0">Go</text>
+    <rect x="130" y="214" width="300" height="8" rx="4" fill="#131C2E"/>
+    <rect x="130" y="214" width="16.2" height="8" rx="4" fill="#00ADD8"/>
+    <text x="444" y="224" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#94A3B8">5.4%</text>
+</svg>

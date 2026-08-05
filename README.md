@@ -73,7 +73,7 @@
 <br>
 
 <!-- ===== CONTRIBUTION SNAKE =====
-     Rendered by .github/workflows/snake.yml as a fully filled green contribution
+     Rendered by .github/workflows/snake.yml as an organic animated contribution
      grid. It appears after the workflow has run once and published the output
      branch. -->
 <div align="center">
@@ -81,7 +81,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rehyanyadav/rehyanyadav/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rehyanyadav/rehyanyadav/output/github-contribution-grid-snake.svg" />
-  <img alt="snake eating my contribution graph" src="https://raw.githubusercontent.com/rehyanyadav/rehyanyadav/output/github-contribution-grid-snake.svg" width="100%"/>
+  <img alt="organic animated contribution grid" src="https://raw.githubusercontent.com/rehyanyadav/rehyanyadav/output/github-contribution-grid-snake.svg" width="100%"/>
 </picture>
 
 </div>

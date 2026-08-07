@@ -17,31 +17,31 @@
     <circle cx="30" cy="90" r="4.5" fill="#555555"/>
     <text x="42" y="94" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">C</text>
     <rect x="130" y="84" width="300" height="8" rx="4" fill="#E2E8F0"/>
-    <rect x="130" y="84" width="91.2" height="8" rx="4" fill="#555555"/>
-    <text x="444" y="94" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#64748B">30.4%</text>
-    <circle cx="30" cy="116" r="4.5" fill="#F1E05A"/>
-    <text x="42" y="120" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">JavaScript</text>
+    <rect x="130" y="84" width="102.0" height="8" rx="4" fill="#555555"/>
+    <text x="444" y="94" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#64748B">34%</text>
+    <circle cx="30" cy="116" r="4.5" fill="#F34B7D"/>
+    <text x="42" y="120" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">C++</text>
     <rect x="130" y="110" width="300" height="8" rx="4" fill="#E2E8F0"/>
-    <rect x="130" y="110" width="64.2" height="8" rx="4" fill="#F1E05A"/>
-    <text x="444" y="120" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#64748B">21.4%</text>
-    <circle cx="30" cy="142" r="4.5" fill="#E34C26"/>
-    <text x="42" y="146" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">HTML</text>
+    <rect x="130" y="110" width="57.3" height="8" rx="4" fill="#F34B7D"/>
+    <text x="444" y="120" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#64748B">19.1%</text>
+    <circle cx="30" cy="142" r="4.5" fill="#F1E05A"/>
+    <text x="42" y="146" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">JavaScript</text>
     <rect x="130" y="136" width="300" height="8" rx="4" fill="#E2E8F0"/>
-    <rect x="130" y="136" width="58.8" height="8" rx="4" fill="#E34C26"/>
-    <text x="444" y="146" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#64748B">19.6%</text>
-    <circle cx="30" cy="168" r="4.5" fill="#F34B7D"/>
-    <text x="42" y="172" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">C++</text>
+    <rect x="130" y="136" width="57.3" height="8" rx="4" fill="#F1E05A"/>
+    <text x="444" y="146" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#64748B">19.1%</text>
+    <circle cx="30" cy="168" r="4.5" fill="#E34C26"/>
+    <text x="42" y="172" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">HTML</text>
     <rect x="130" y="162" width="300" height="8" rx="4" fill="#E2E8F0"/>
-    <rect x="130" y="162" width="53.7" height="8" rx="4" fill="#F34B7D"/>
-    <text x="444" y="172" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#64748B">17.9%</text>
+    <rect x="130" y="162" width="44.7" height="8" rx="4" fill="#E34C26"/>
+    <text x="444" y="172" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#64748B">14.9%</text>
     <circle cx="30" cy="194" r="4.5" fill="#3572A5"/>
     <text x="42" y="198" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">Python</text>
     <rect x="130" y="188" width="300" height="8" rx="4" fill="#E2E8F0"/>
-    <rect x="130" y="188" width="16.2" height="8" rx="4" fill="#3572A5"/>
-    <text x="444" y="198" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#64748B">5.4%</text>
+    <rect x="130" y="188" width="19.2" height="8" rx="4" fill="#3572A5"/>
+    <text x="444" y="198" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#64748B">6.4%</text>
     <circle cx="30" cy="220" r="4.5" fill="#00ADD8"/>
     <text x="42" y="224" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#334155">Go</text>
     <rect x="130" y="214" width="300" height="8" rx="4" fill="#E2E8F0"/>
-    <rect x="130" y="214" width="16.2" height="8" rx="4" fill="#00ADD8"/>
-    <text x="444" y="224" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#64748B">5.4%</text>
+    <rect x="130" y="214" width="19.2" height="8" rx="4" fill="#00ADD8"/>
+    <text x="444" y="224" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#64748B">6.4%</text>
 </svg>

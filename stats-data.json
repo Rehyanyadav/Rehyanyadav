@@ -1,36 +1,36 @@
 {
   "followers": 11,
-  "totalContributions": 184,
-  "totalCommits": 165,
+  "totalContributions": 182,
+  "totalCommits": 164,
   "totalPRs": 2,
   "totalIssues": 0,
   "totalStars": 3,
-  "totalForks": 2,
-  "totalRepos": 63,
+  "totalForks": 1,
+  "totalRepos": 39,
   "languages": [
     {
-      "name": "C",
-      "pct": 34
-    },
-    {
       "name": "C++",
-      "pct": 19.1
+      "pct": 30
     },
     {
       "name": "JavaScript",
-      "pct": 19.1
+      "pct": 30
     },
     {
       "name": "HTML",
-      "pct": 14.9
-    },
-    {
-      "name": "Python",
-      "pct": 6.4
+      "pct": 13.3
     },
     {
       "name": "Go",
-      "pct": 6.4
+      "pct": 10
+    },
+    {
+      "name": "Dart",
+      "pct": 10
+    },
+    {
+      "name": "C",
+      "pct": 6.7
     }
   ]
 }

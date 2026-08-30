@@ -17,12 +17,12 @@
   
     <text x="70" y="118" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#0F172A">3</text>
     <text x="70" y="142" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#64748B">Total Stars</text>
-    <text x="210" y="118" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#0F172A">241</text>
+    <text x="210" y="118" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#0F172A">247</text>
     <text x="210" y="142" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#64748B">Contributions</text>
     <text x="350" y="118" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#0F172A">28</text>
     <text x="350" y="142" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#64748B">Public Repos</text>
     <text x="490" y="118" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#0F172A">11</text>
     <text x="490" y="142" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#64748B">Followers</text>
   <line x1="0" y1="150" x2="560" y2="150" stroke="#E2E8F0" stroke-width="1"/>
-  <text x="280" y="176" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#64748B">225 commits · 2 PRs · 0 issues · 0 forks</text>
+  <text x="280" y="176" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#64748B">231 commits · 2 PRs · 0 issues · 0 forks</text>
 </svg>
